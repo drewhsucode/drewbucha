@@ -3035,8 +3035,8 @@ textarea.w-select {
     justify-content: space-around;
     align-items: center;
     height: 1svh;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-top: 5svh;
+    margin-bottom: 5svh;
     display: flex;
 }
 
@@ -3054,8 +3054,8 @@ textarea.w-select {
     grid-auto-columns: 1fr;
     justify-content: center;
     align-items: center;
-    margin-top: 3vh;
-    margin-bottom: 5px;
+    margin-top: 3svh;
+    margin-bottom: 0;
     display: flex;
 }
 
@@ -3066,6 +3066,13 @@ textarea.w-select {
 @media screen and (max-width: 991px) {
     .image {
         width: 80%;
+    }
+
+    .div-block {
+        min-height: 1svh;
+        max-height: 1svh;
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 
     .text-block-3 {
@@ -3098,6 +3105,18 @@ textarea.w-select {
 @media screen and (max-width: 479px) {
     .image {
         width: 90%;
+    }
+
+    .div-block {
+        min-height: 1svh;
+        max-height: 1svh;
+        margin-top: 5svh;
+        margin-bottom: 5svh;
+    }
+
+    .div-block-2 {
+        margin-left: 2svw;
+        margin-right: 2svw;
     }
 }
 
