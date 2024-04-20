@@ -3023,7 +3023,9 @@ textarea.w-select {
     text-align: center;
     object-fit: fill;
     width: 40%;
-    margin-top: 0;
+    margin-top: 5svh;
+    margin-left: auto;
+    margin-right: auto;
     display: block;
 }
 
@@ -3035,7 +3037,7 @@ textarea.w-select {
     justify-content: space-around;
     align-items: center;
     height: 1svh;
-    margin-top: 5svh;
+    margin-top: 0;
     margin-bottom: 5svh;
     display: flex;
 }
@@ -3072,7 +3074,7 @@ textarea.w-select {
         min-height: 1svh;
         max-height: 1svh;
         margin-top: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 100svh;
     }
 
     .text-block-3 {
