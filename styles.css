@@ -3023,14 +3023,20 @@ textarea.w-select {
     text-align: center;
     object-fit: fill;
     width: 40%;
-    margin-top: 5vh;
+    margin-top: 0;
     display: block;
 }
 
 .div-block {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     text-align: center;
-    justify-content: center;
+    flex-flow: column;
+    justify-content: space-around;
     align-items: center;
+    height: 1svh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     display: flex;
 }
 
@@ -3049,6 +3055,7 @@ textarea.w-select {
     justify-content: center;
     align-items: center;
     margin-top: 3vh;
+    margin-bottom: 5px;
     display: flex;
 }
 
@@ -3056,9 +3063,41 @@ textarea.w-select {
     width: 30%;
 }
 
+@media screen and (max-width: 991px) {
+    .image {
+        width: 80%;
+    }
+
+    .text-block-3 {
+        font-size: 6vw;
+    }
+
+    .div-block-2 {
+        justify-content: center;
+        align-items: center;
+        margin-top: 5vh;
+        margin-left: 2vw;
+        margin-right: 2vw;
+    }
+
+    .image-2 {
+        width: 40%;
+    }
+}
+
 @media screen and (max-width: 767px) {
+    .image {
+        width: 90%;
+    }
+
     .div-block-2 {
         margin-top: 3svh;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .image {
+        width: 90%;
     }
 }
 
