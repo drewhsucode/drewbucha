@@ -1668,7 +1668,7 @@ __p+='`),
                   return !0;
               };
         var e_ = 'resize.webflow orientationchange.webflow load.webflow',
-            yee = 'scroll.webflow ' + e_;
+            yee = 'scroll.webflos ' + e_;
         et.resize = Hm(ln, e_);
         et.scroll = Hm(ln, yee);
         et.redraw = Hm();
