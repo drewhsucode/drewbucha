@@ -3083,6 +3083,363 @@ textarea.w-select {
     position: static;
 }
 
+.hero-and-current-flavors {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    background-color: #e5daf5;
+    background-image: linear-gradient(#cbb6eb, #fff);
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: block;
+}
+
+.customer-feedback {
+    height: 90vh;
+}
+
+.hero {
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 0;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    display: flex;
+}
+
+.image-3 {
+    border-radius: 50px;
+    width: 30%;
+    max-width: none;
+}
+
+.mathematics {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    flex-flow: row;
+    grid-template:
+        'Area-2 . . Area'
+        '. . . .'
+        / 0.75fr 0.25fr 0.75fr 0.25fr 1.5fr;
+    grid-auto-columns: 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+}
+
+.hero-text {
+    padding-top: 4vw;
+}
+
+.buy-button {
+    text-align: center;
+    width: 100%;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+
+.text-block-4 {
+    text-align: center;
+    font-family: Rabie, sans-serif;
+    font-size: 2.5vw;
+    font-weight: 500;
+    line-height: 4vw;
+}
+
+.text-block-4.current {
+    font-size: 2vw;
+    line-height: 3vw;
+    transform: translate(0);
+}
+
+.text-block-4.current.feedback {
+    margin-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.text-block-4.current.newflavors {
+    transform: none;
+}
+
+.text-block-4.test {
+    font-size: 4vw;
+    line-height: 5vw;
+}
+
+.button {
+    color: #000;
+    text-align: center;
+    background-color: #df84ff;
+    border-radius: 100px;
+    width: 16vw;
+    font-family: Rabie, sans-serif;
+    font-size: 2vw;
+    font-weight: 500;
+    line-height: 3vw;
+}
+
+.button.feedback {
+    color: #000;
+    background-color: #df84ff;
+    border: 3px #000;
+    width: 30vw;
+    min-width: 30vw;
+    font-size: 1.5vw;
+    line-height: 3vw;
+}
+
+.image-4 {
+    width: auto;
+}
+
+.text-block-5 {
+    text-align: center;
+    width: auto;
+    font-size: 8vw;
+    line-height: 60px;
+}
+
+.image-5 {
+    text-align: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: Inconsolata, monospace;
+    font-size: 1.7vw;
+    font-weight: 200;
+    line-height: 2vw;
+}
+
+.subtitle.test {
+    font-size: 1.7vw;
+}
+
+.text-block-7 {
+    text-align: center;
+}
+
+.text-block-8 {
+    font-family: Rabie, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.text-block-8.signs {
+    text-align: center;
+    font-size: 45px;
+}
+
+.div-block-3 {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: flex;
+}
+
+.image-6 {
+    align-self: center;
+    width: auto;
+    max-width: none;
+    height: 4vh;
+}
+
+.div-block-4 {
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.div-block-4.drewbucha-hero {
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.current-flavors {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.headers {
+    text-align: center;
+    padding-top: 7vw;
+    padding-bottom: 3vw;
+    font-family: Rabie, sans-serif;
+    font-size: 3.8vw;
+    font-weight: 700;
+    line-height: 5vw;
+}
+
+.image-7 {
+    text-align: center;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: block;
+}
+
+.flavors {
+    grid-column-gap: 10vw;
+    grid-row-gap: 10vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    padding: 0 10vw;
+    display: flex;
+}
+
+.image-8 {
+    text-align: center;
+    flex: 0 auto;
+    order: 0;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.div-block-5 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    flex-flow: column;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-columns: 1fr;
+    justify-content: center;
+    align-self: auto;
+    align-items: flex-end;
+    display: flex;
+}
+
+.image-9 {
+    width: 8vw;
+    padding-top: 20px;
+}
+
+.div-block-6 {
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template:
+        '.' 6vh
+        '.' 6vh
+        '.' 6vh
+        '.' 6vh
+        '.' 6vh
+        'Area' 6vh
+        / 6vw 6vw 6vw 6vw 6vw 6vw;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+
+.flavor-sub {
+    text-align: center;
+    font-family: Inconsolata, monospace;
+    font-size: 20px;
+}
+
+.flavor-emoji {
+    text-align: center;
+    font-size: 8vw;
+    line-height: 13vw;
+}
+
+.navbar {
+    color: #e5daf5;
+    -webkit-text-stroke-color: #cbb6eb;
+    background-color: #cbb6eb;
+}
+
+.nav-link {
+    font-family: Rabie, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.nav-link-2 {
+    font-family: Rabie, sans-serif;
+}
+
+.brand {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bold-text {
+    font-size: 1.2vw;
+    line-height: 1.5vw;
+}
+
+.bold {
+    font-size: 1.2vw;
+}
+
+.bold-text-3 {
+    font-size: 1.8vw;
+}
+
+.div-block-7 {
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    display: flex;
+}
+
+.link {
+    color: #000;
+    font-size: 5vw;
+    line-height: 5vw;
+    text-decoration: none;
+}
+
+.link.w--current {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-10 {
+    text-align: center;
+    width: 62%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.link-block-2 {
+    align-self: center;
+}
+
+.container {
+    -webkit-text-stroke-color: #cbb6eb;
+    background-color: #cbb6eb;
+}
+
+.div-block-8 {
+    height: 90vh;
+}
+
 @media screen and (max-width: 991px) {
     .image {
         width: 80%;
@@ -3109,6 +3466,109 @@ textarea.w-select {
 
     .image-2 {
         width: 40%;
+    }
+
+    .customer-feedback {
+        height: auto;
+    }
+
+    .hero {
+        width: 80%;
+    }
+
+    .image-3 {
+        order: -1;
+        width: 30%;
+    }
+
+    .mathematics {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .hero-text {
+        padding-top: 10vw;
+    }
+
+    .text-block-4 {
+        font-size: 3vw;
+        line-height: 6vw;
+    }
+
+    .text-block-4.current {
+        font-size: 3vw;
+        line-height: 3.6vw;
+    }
+
+    .text-block-4.current.newflavors {
+        font-size: 3vw;
+    }
+
+    .button {
+        font-size: 2.3vw;
+    }
+
+    .button.feedback {
+        width: 36vw;
+        min-width: 36vw;
+        font-size: 2.3vw;
+    }
+
+    .text-block-5 {
+        font-size: 15vw;
+    }
+
+    .image-5 {
+        width: 200%;
+        font-size: 20px;
+    }
+
+    .subtitle {
+        font-size: 2.5vw;
+        line-height: 3vw;
+    }
+
+    .div-block-4.drewbucha-hero {
+        flex-flow: column;
+    }
+
+    .image-7 {
+        width: 100%;
+    }
+
+    .flavors {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .image-9 {
+        width: 10vw;
+    }
+
+    .flavor-emoji {
+        font-size: 15vw;
+        line-height: 15vw;
+    }
+
+    .bold-text {
+        font-size: 1.8vw;
+    }
+
+    .div-block-7 {
+        height: 80vh;
+    }
+
+    .div-block-8 {
+        height: auto;
+    }
+
+    .nav-menu-2 {
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .menu-button,
+    .menu-button.w--open {
+        background-color: #cbb6eb;
     }
 }
 
@@ -3137,6 +3597,64 @@ textarea.w-select {
     .div-block-2 {
         margin-left: 2svw;
         margin-right: 2svw;
+    }
+
+    .image-6 {
+        height: 3vh;
+    }
+}
+
+#w-node-_5f818892-ca75-bbec-796f-f2a604a0d323-21dee429 {
+    grid-area: 1 / 2 / 3 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+#w-node-d86682c0-e8fc-11bf-374c-10cde2c17ff9-21dee429 {
+    grid-area: 1 / 4 / 3 / 5;
+}
+
+#w-node-_59a47e8d-eea2-33be-c292-9efa7690c887-21dee429 {
+    grid-area: 1 / 5 / 3 / 6;
+}
+
+#w-node-_5dce3a8d-bcc2-822d-d88a-50c90fa61fb2-21dee429,
+#w-node-dee2436c-e675-1f70-8d7e-610ec7c9d650-21dee429 {
+    grid-area: span 1 / span 1 / span 1 / span 1;
+}
+
+#w-node-_89fb9b33-7e9a-03a5-ea7b-641bbd6092a1-21dee429 {
+    grid-area: 1 / 1 / 3 / 3;
+    align-self: center;
+    justify-self: center;
+}
+
+#w-node-_0498a081-9609-a7b0-5baa-ce70b2ea93a2-21dee429 {
+    grid-area: 2 / 5 / 4 / 7;
+    align-self: center;
+    justify-self: center;
+}
+
+#w-node-_02c5d5d2-0600-d471-cfcb-ab33197deb56-21dee429 {
+    grid-area: 4 / 3 / 6 / 5;
+    align-self: center;
+}
+
+#w-node-_9361dcf5-922a-45af-d70c-7de9a250a64a-21dee429 {
+    grid-area: 6 / 3 / 7 / 5;
+}
+
+#w-node-c9fdab73-c1cf-fb2a-4a8e-9e18e8d6383c-21dee429 {
+    grid-area: 4 / 5 / 5 / 7;
+}
+
+#w-node-_3ea285c6-8306-d7f7-1866-dbcec18ffbcf-21dee429 {
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+@media screen and (max-width: 991px) {
+    #w-node-c2c30e4c-7840-a346-9925-95643687604e-21dee429 {
+        grid-area: span 1 / span 1 / span 1 / span 1;
     }
 }
 
@@ -3179,6 +3697,208 @@ textarea.w-select {
     src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/6622b2d1b540d271a84b5d12_Rabie-Light.ttf')
         format('truetype');
     font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/6631349f88d80a4853e5af60_GT-Sectra-Fine-Black-Italic.ttf')
+        format('truetype');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/6631349f31903f811fd39bcd_GT-Sectra-Fine-Black.ttf')
+        format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/6631349f8225d7d02d74d7cf_GT-Sectra-Fine-Regular.ttf')
+        format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/6631349f3cd99dbda9a42122_GT-Sectra-Fine-Bold-Italic.ttf')
+        format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine Book';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/6631349f80d85b7210212210_GT-Sectra-Fine-Book.ttf')
+        format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/6631349f09103d14808f7120_GT-Sectra-Fine-Medium.ttf')
+        format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134a04740f01a7b0f24c1_GT-Sectra-Fine-Medium-Italic.ttf')
+        format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine Book';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134a0af8417433bde5105_GT-Sectra-Fine-Book-Italic.ttf')
+        format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134a0052d2ec7f86d3390_GT-Sectra-Fine-Regular-Italic.ttf')
+        format('truetype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Gt Sectra Fine';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134a04f75eed45daf56b2_GT-Sectra-Fine-Bold.ttf')
+        format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134fcf8de8a5f5453186a_Sora-Medium.ttf')
+        format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134fc02d5f8461ae01ffe_Sora-ExtraBold.ttf')
+            format('truetype'),
+        url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134fcce279694a2866611_Sora-Bold.ttf')
+            format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134fcf90295a144347f80_Sora-SemiBold.ttf')
+        format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134fc869256ce80086e9f_Sora-Thin.ttf')
+        format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134fc9708fbb40aff6436_Sora-ExtraLight.ttf')
+        format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134fcc23c938884ec55db_Sora-Regular.ttf')
+        format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Sora';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134fc541be68ddf54d91e_Sora-Light.ttf')
+        format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P 22 Mackinacpro 26';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134bd30b161de00144079_P22MackinacPro-Medium_26.otf')
+        format('opentype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P 22 Mackinacpro 15';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134bdc378cb7592f9f07e_P22MackinacPro-BookItalic_15.otf')
+        format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P 22 Mackinacpro 18';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134bdd602be1e4a8babbb_P22MackinacPro-MedItalic_18.otf')
+        format('opentype');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P 22 Mackinacpro 16';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134bd3c46a10a363e2fd3_P22MackinacPro-Bold_16.otf')
+        format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P 22 Mackinacpro Book 25';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134bda5a70599859fbdb2_P22MackinacPro-Book_25.otf')
+        format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P 22 Mackinacpro 17';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134bd799b19c2a57e177a_P22MackinacPro-ExBoldItalic_17.otf')
+        format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P 22 Mackinacpro 11';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134bd2a752d77ebaa94bb_P22MackinacPro-BoldItalic_11.otf')
+        format('opentype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'P 22 Mackinacpro 12';
+    src: url('https://uploads-ssl.webflow.com/661d7df7c2da578121dee41e/663134bda2a2fd3db02104f1_P22MackinacPro-ExtraBold_12.otf')
+        format('opentype');
+    font-weight: 700;
     font-style: normal;
     font-display: swap;
 }
