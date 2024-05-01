@@ -3557,11 +3557,12 @@ textarea.w-select {
 
     .image-7 {
         width: 100%;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
 
     .flavors {
-        padding-left: 10vw;
-        padding-right: 10vw;
+        padding: 2vh 10vw;
     }
 
     .image-9 {
