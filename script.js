@@ -1,11 +1,3 @@
-/*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
- */
-
 (() => {
     var iee = Object.create;
     var Is = Object.defineProperty;
@@ -49071,8 +49063,136 @@ Webflow.require('ix2').init({
             },
             createdOn: 1714584473802,
         },
+        'e-15': {
+            id: 'e-15',
+            name: '',
+            animationType: 'custom',
+            eventTypeId: 'PAGE_SCROLL_UP',
+            action: {
+                id: '',
+                actionTypeId: 'GENERAL_START_ACTION',
+                config: {
+                    delay: 0,
+                    easing: '',
+                    duration: 0,
+                    actionListId: 'a-2',
+                    affectedElements: {},
+                    playInReverse: false,
+                    autoStopEventId: 'e-16',
+                },
+            },
+            mediaQueries: ['main', 'medium', 'small', 'tiny'],
+            target: {
+                appliesTo: 'PAGE',
+                styleBlockIds: [],
+                id: '661d7df7c2da578121dee429',
+            },
+            targets: [],
+            config: {
+                loop: false,
+                playInReverse: false,
+                scrollOffsetValue: 0,
+                scrollOffsetUnit: '%',
+                delay: null,
+                direction: null,
+                effectIn: null,
+            },
+            createdOn: 1715371056645,
+        },
+        'e-16': {
+            id: 'e-16',
+            name: '',
+            animationType: 'custom',
+            eventTypeId: 'PAGE_SCROLL_DOWN',
+            action: {
+                id: '',
+                actionTypeId: 'GENERAL_START_ACTION',
+                config: {
+                    delay: 0,
+                    easing: '',
+                    duration: 0,
+                    actionListId: 'a',
+                    affectedElements: {},
+                    playInReverse: false,
+                    autoStopEventId: 'e-15',
+                },
+            },
+            mediaQueries: ['main', 'medium', 'small', 'tiny'],
+            target: {
+                appliesTo: 'PAGE',
+                styleBlockIds: [],
+                id: '661d7df7c2da578121dee429',
+            },
+            targets: [],
+            config: {
+                loop: false,
+                playInReverse: false,
+                scrollOffsetValue: 0,
+                scrollOffsetUnit: '%',
+                delay: null,
+                direction: null,
+                effectIn: null,
+            },
+            createdOn: 1715371056646,
+        },
     },
     actionLists: {
+        'a-2': {
+            id: 'a-2',
+            title: 'nav come back',
+            actionItemGroups: [
+                {
+                    actionItems: [
+                        {
+                            id: 'a-2-n',
+                            actionTypeId: 'TRANSFORM_MOVE',
+                            config: {
+                                delay: 200,
+                                easing: 'outQuad',
+                                duration: 400,
+                                target: {
+                                    id: '661d7df7c2da578121dee429|c2e4fdb4-e1e9-5438-f878-48f74434f6a7',
+                                },
+                                yValue: 0,
+                                xUnit: 'PX',
+                                yUnit: 'px',
+                                zUnit: 'PX',
+                            },
+                        },
+                    ],
+                },
+            ],
+            createdOn: 1715371161805,
+            useFirstGroupAsInitialState: false,
+        },
+        a: {
+            id: 'a',
+            title: 'nav leave',
+            actionItemGroups: [
+                {
+                    actionItems: [
+                        {
+                            id: 'a-n',
+                            actionTypeId: 'TRANSFORM_MOVE',
+                            config: {
+                                delay: 200,
+                                easing: 'outQuad',
+                                duration: 400,
+                                target: {
+                                    id: '661d7df7c2da578121dee429|c2e4fdb4-e1e9-5438-f878-48f74434f6a7',
+                                },
+                                yValue: -80,
+                                xUnit: 'PX',
+                                yUnit: 'px',
+                                zUnit: 'PX',
+                            },
+                        },
+                    ],
+                },
+            ],
+            createdOn: 1715371072661,
+            useFirstGroupAsInitialState: false,
+        },
         slideInBottom: {
             id: 'slideInBottom',
             useFirstGroupAsInitialState: true,
