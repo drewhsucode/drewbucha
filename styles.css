@@ -3728,7 +3728,7 @@ textarea.w-select {
 
     .div-block-7 {
         justify-content: center;
-        height: 100vh;
+        height: 90vh;
     }
 
     .image-10 {
@@ -3761,7 +3761,7 @@ textarea.w-select {
     }
 
     .image-11 {
-        width: 1.5em;
+        width: 1em;
     }
 }
 
@@ -3772,6 +3772,10 @@ textarea.w-select {
 
     .div-block-2 {
         margin-top: 3svh;
+    }
+
+    .image-11 {
+        width: 1em;
     }
 }
 
