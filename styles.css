@@ -3760,6 +3760,10 @@ textarea.w-select {
         background-color: #cbb6eb;
     }
 
+    .div-block-12 {
+        background-image: linear-gradient(#cbb6eb, #fff 65%);
+    }
+
     .image-11 {
         width: 1em;
     }
