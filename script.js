@@ -1,11 +1,3 @@
-/*!
- * Webflow: Front-end site library
- * @license MIT
- * Inline scripts may access the api using an async handler:
- *   var Webflow = Webflow || [];
- *   Webflow.push(readyFunction);
- */
-
 (() => {
     var iee = Object.create;
     var Is = Object.defineProperty;
@@ -49091,11 +49083,17 @@ Webflow.require('ix2').init({
             },
             mediaQueries: ['main', 'medium', 'small', 'tiny'],
             target: {
+                id: '661d7df7c2da578121dee429',
                 appliesTo: 'PAGE',
                 styleBlockIds: [],
-                id: '661d7df7c2da578121dee429',
             },
-            targets: [],
+            targets: [
+                {
+                    id: '661d7df7c2da578121dee429',
+                    appliesTo: 'PAGE',
+                    styleBlockIds: [],
+                },
+            ],
             config: {
                 loop: false,
                 playInReverse: false,
@@ -49127,11 +49125,17 @@ Webflow.require('ix2').init({
             },
             mediaQueries: ['main', 'medium', 'small', 'tiny'],
             target: {
+                id: '661d7df7c2da578121dee429',
                 appliesTo: 'PAGE',
                 styleBlockIds: [],
-                id: '661d7df7c2da578121dee429',
             },
-            targets: [],
+            targets: [
+                {
+                    id: '661d7df7c2da578121dee429',
+                    appliesTo: 'PAGE',
+                    styleBlockIds: [],
+                },
+            ],
             config: {
                 loop: false,
                 playInReverse: false,
@@ -49170,8 +49174,8 @@ Webflow.require('ix2').init({
                     ],
                 },
             ],
-            createdOn: 1715371161805,
             useFirstGroupAsInitialState: false,
+            createdOn: 1715371161805,
         },
         a: {
             id: 'a',
@@ -49198,8 +49202,8 @@ Webflow.require('ix2').init({
                     ],
                 },
             ],
-            createdOn: 1715371072661,
             useFirstGroupAsInitialState: false,
+            createdOn: 1715371072661,
         },
         slideInBottom: {
             id: 'slideInBottom',
