@@ -3472,7 +3472,7 @@ textarea.w-select {
     height: 100vh;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0;
+    padding-top: 20px;
     padding-bottom: 0;
     display: flex;
 }
@@ -3490,7 +3490,7 @@ textarea.w-select {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     display: flex;
 }
 
@@ -3549,7 +3549,8 @@ textarea.w-select {
     }
 
     .div-block-8 {
-        height: 100vh;
+        height: 100%;
+        padding-top: 30px;
     }
 
     .body {
@@ -3557,7 +3558,8 @@ textarea.w-select {
     }
 
     .div-block-9 {
-        height: 100vh;
+        height: 100%;
+        padding-top: 30px;
     }
 
     .code-embed {
